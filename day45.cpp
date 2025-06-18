@@ -61,6 +61,8 @@ public:
         for (int count : hash) {
             res = (res + count) % mod;
         }
+        
         return res;
     }
-};
+}; 
+
